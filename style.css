@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Rethink Sans', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    padding: 20px;
+    transition: 0.5s;
+
+    
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.m:hover{
+    background-color: #272829;
+    color: white;
+
+ 
+}
+
+.line1{
+    height: 30px;
+    margin-top: 10px;
+}
+
+.content{
+    display: flex;
+    gap: 20px;
+}
+
+.item{
+    background-color: #272829;
+    height: 400px;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.box-1{
+    background-color: white;
+}
+.box-2{
+    /* border-radius: 15px; */
+    position: relative;
+    /* left: 50px; */
+}
+
+h1{
+    color: white;
+    font-family: 'Rethink Sans', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    margin: 50px;
+    font-size: 75px;
+}
+.small{
+    font-size: 50px;
+}
+
+.text{
+    color: white;
+    font-family: 'Rethink Sans', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    margin-left: 50px;
+    font-size: 22px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.img-box{
+    max-width: 50%;
+    border-radius: 50%;
+}
+.dp{
+    border-radius: 50%;
+    height: 400px;
+    position: absolute;
+    left: 150px;
+}
+
+.hero{
+    box-shadow: 5px 5px 10px rgb(247, 247, 247);
+    height: 600px;
+}
+
+h2{
+    font-family: 'Rethink Sans', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    /* text-align: ; */
+    margin: 50px;
+    font-size: 50px;
+    color: #272829;
+}
+
+.about{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: D8D9DA;
+}
+
+.about-c{
+    margin-top: -30px;
+    margin-bottom: 30px;
+    font-family: 'Rethink Sans', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    
+}
+
+.footer-1{
+    display: flex;
+    justify-content: center;
+    background-color: #272829;
+    margin-top: 100px;
+}
+
+.foot{
+    color: rgb(163, 163, 163);
+}
+
+.foot:hover{
+    color: white;
+    
+}
+
+.portfolio-cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+.img-por{
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
