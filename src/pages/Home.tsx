@@ -8,6 +8,7 @@ const Home = () => {
     const mainRef = useRef<HTMLParagraphElement>(null);
     const subRef = useRef<HTMLParagraphElement>(null);
     useEffect(() => {
+        document.title = "Portfolio"
         gsap.from(mainRef.current, {
             opacity: 0,
             scale: 1,
